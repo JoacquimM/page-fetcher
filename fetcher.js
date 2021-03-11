@@ -60,27 +60,7 @@ const fetcher = (x)=>{
     
 });
 
-// // this will fetch teh bytes
-// progress(request(`${url}`))
-//  .on('progress', state => {
 
-//    console.log(state)
-
-//   })
-
-
-
-
-// //Node's fs module to write the file index.html
-// fs = require('fs');
-// fs.writeFile('./indexx.txt', 'testing testing', function (err) {
-//   if (err) return console.log(err);
-//   console.log('Hello World > helloworld.txt');
-// });
-
-
-
-// console.log(path);
 }
 fetcher(args);
 
